@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Julia's Front-End Assignment</title>
+
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
+</head>
+<body>
+	<h1 class="text-center">Hi Dan!</h1>
+	<input type="button" class="btn open-button" value="Reset Lightbox">
+
+	<!-- the lightbox -->
+	<div class="lightbox-container">
+		<div class="lightbox-header">
+			<h2>Progress</h2>
+			<span class="close-button"></span>
+		</div>
+		<div class="lightbox-main">
+			<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"> <!-- Bootstrap Progress Bar -->
+			  </div>
+			</div>
+			<h3 class="progress-text">Progress <span class="progress-percent">0</span>%</h3> <!-- For incomplete progress -->
+			<h3 class="progress-complete">This task is 100% completed <img src="images/complete-tick.png"></h3> <!-- Once progress complete -->
+		</div>
+	</div>
+
+	
+	<!-- darken page -->
+	<div class="page-shadow"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
